@@ -1,6 +1,7 @@
 'use client';
 
-import { cn, useCount } from '@/lib/utils';
+import { cn } from '@/lib/utils';
+import { useCount } from '@/lib/useCount';
 import { useThemeStore } from '@/store/store';
 import React, { useEffect, useState, useSyncExternalStore } from 'react';
 
